@@ -1,14 +1,5 @@
 # Week 8 — Generic Programming in Java (Group Exercise)
 
-## Goals
-By the end of this week, you should be able to:
-- Create and use **generic classes** (e.g., `Box<T>`)
-- Write **generic methods** (type inference)
-- Use **multiple type parameters** (e.g., `Pair<A, B>`)
-- Apply **bounded type parameters** (`<T extends Comparable<T>>`)
-- Use wildcards with **PECS** (`? extends` vs `? super`)
-
----
 
 ## How to work (Group format)
 **Group size:** 3–5  
