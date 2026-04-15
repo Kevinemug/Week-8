@@ -2,7 +2,7 @@
 
 
 ## How to work (Group format)
-**Group size:** 3–5  
+**Group size:** 3-4 
 **Time:** 1h
 
 **Goal:**
