@@ -34,7 +34,7 @@ class Demo {
     public static void main(String[] args) {
         Envelope e = new Envelope();
         e.put("hello");
-        Integer x = (Integer) e.get(); // runtime crash
+        Integer x = (Integer) e.get(); 
     }
 }
 ```
