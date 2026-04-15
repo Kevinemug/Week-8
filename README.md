@@ -23,7 +23,7 @@
 **Task:** This code compiles but is unsafe. Redesign it as a generic `Box<T>` so no casts are needed and wrong types are rejected at compile time.
 
 ```java
-class Box {
+class Envelope {
     private Object value;
 
     public void put(Object v) { value = v; }
@@ -32,9 +32,9 @@ class Box {
 
 class Demo {
     public static void main(String[] args) {
-        Box b = new Box();
-        b.put("hello");
-        Integer x = (Integer) b.get(); // runtime crash
+        Envelope e = new Envelope();
+        e.put("hello");
+        Integer x = (Integer) e.get(); // runtime crash
     }
 }
 ```
