@@ -5,7 +5,7 @@ class Envelope<T> {
     public T get() { return value; }
 }
 
-class Demo {
+class DemoOne {
     public static void main(String[] args) {
         Envelope<String> e = new Envelope<>();
         e.put("hello");
