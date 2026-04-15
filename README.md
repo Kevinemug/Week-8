@@ -19,8 +19,8 @@
 
 ## Questions (Improve the code using generics)
 
-### Q1) Refactor a “raw” container into `Box<T>`
-**Task:** This code compiles but is unsafe. Redesign it as a generic `Box<T>` so no casts are needed and wrong types are rejected at compile time.
+### Q1) Refactor a “raw” container into `Envelope<T>`
+**Task:** This code compiles but is unsafe. Redesign it as a generic `Envelope<T>` so no casts are needed and wrong types are rejected at compile time.
 
 ```java
 class Envelope {
