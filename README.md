@@ -39,7 +39,6 @@ class Demo {
 }
 ```
 
-**Deliverable:** `Box<T>` implementation + demo for `Box<String>` and `Box<Integer>`.
 
 ---
 
